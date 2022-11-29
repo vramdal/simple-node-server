@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "commander": "^9.4.1",
+    "http-server": "^14.1.1"
+  }
+}
