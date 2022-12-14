@@ -25,7 +25,8 @@ const server = httpServer.createServer({
     showDir: true,
     showDotfiles: true,
     cors: true,
-    corsHeaders: "authorization"
+    corsHeaders: "authorization",
+    cache: -1,
 });
 
 server.listen(program.getOptionValue("port"), () => {
